@@ -1,137 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            min-height: 100vh;
-        }
-        .hero {
-            background: linear-gradient(rgba(0, 100, 150, 0.7), rgba(0, 150, 200, 0.7)), url('bannerimage.jpeg') center/cover;
-            color: white;
-            padding: 100px 20px;
-            text-align: center;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            width: 100%;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .hero h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-            letter-spacing: 2px;
-        }
-        section {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        article {
-            background: white;
-            margin: 25px 0;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            transition: transform 0.3s, box-shadow 0.3s;
-            border-left: 5px solid #0096c8;
-        }
-        article:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-        }
-        h2 {
-            color: #0096c8;
-            margin-bottom: 15px;
-            font-size: 1.8em;
-        }
-        h3 {
-            color: #0096c8;
-            text-align: center;
-            font-size: 2em;
-            margin: 40px 0 20px;
-        }
-        p {
-            color: #555;
-            margin-bottom: 15px;
-            font-size: 1.05em;
-        }
-        .gallery-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-            padding: 30px 0;
-        }
-        .gallery-container img {
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 12px;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .gallery-container img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #0096c8;
-            font-weight: 600;
-        }
-    </style>
+    <title>Adventures in Fire Island</title>
 </head>
 <body>
-    <div class="hero">
-        <h1>🏝️ ADVENTURES IN FIRE ISLAND 🏝️</h1>
-    </div>
 
+    <!-- Webpage Title -->
+    <h1>Adventures in Fire Island</h1>
+
+    <!-- Hero Section -->
     <section>
-<section>
-    <article>
-        <h2>Introduction</h2>
-        <p>Fire Island is a popular vacation destination located off the southern coast of Long Island, New York. Known for its beautiful beaches, vibrant nightlife, and inclusive community, Fire Island offers a unique experience for visitors of all backgrounds. In this article, we will explore some of the adventures you can have on Fire Island.</p>
-    </article>
-    <article>
-        <h2>Beach Activities</h2>
-        <p>Fire Island boasts miles of pristine beaches where you can relax, swim, and soak up the sun. Whether you're looking for a quiet spot to unwind or a lively beach scene with music and socializing, Fire Island has something for everyone. Don't forget to bring your beach essentials and enjoy the refreshing ocean breeze!</p>
-    </article>
-    <article>
-        <h2>Nightlife</h2>
-        <p>When the sun sets, Fire Island comes alive with its vibrant nightlife. From beach bars to dance clubs, there are plenty of options to choose from. Whether you want to dance the night away or enjoy a cocktail by the fire pit, Fire Island's nightlife scene is sure to keep you entertained.</p>
-    </article>
+        <h2>Welcome to Fire Island</h2>
+        <img 
+            src="bannerimage.jpeg" 
+            alt="Fire Island scenery"
+            width="800"
+        >
+    </section>
 
-    <article>
-    
-<h2> Gallery </h2>
-        <div class="gallery-container">
-            <img src="beach.jpg" alt="Beach Image 1">
-            <img src="beach2.jpeg" alt="Beach Image 2">
-            <img src="beach3.jpeg" alt="Beach Image 3">
-            <img src="beach4.jpeg" alt="Beach Image 4">
-        </div>
-    </article>
+    <!-- Blog Post Summary -->
+    <section>
+        <h2>Trip Summary</h2>
+        <p>
+            My trip to Fire Island was an amazing adventure filled with beautiful beaches,
+            peaceful walking trails, and incredible ocean views. I enjoyed exploring the
+            national seashore, relaxing by the water, and taking photos of the stunning
+            scenery. It was the perfect getaway and a great place for nature lovers.
+        </p>
+    </section>
 
-    <h3>Adventure Awaits; Come to Fire Island!</h3>
-    <p>Whether you're seeking relaxation, excitement, or a bit of both, Fire Island has it all. With its stunning beaches, vibrant nightlife, and welcoming community, it's the perfect destination for your next adventure. Pack your bags and get ready to experience the magic of Fire Island!</p>
-    
+    <!-- Image Gallery using ul and li -->
+    <section>
+        <h2>Photo Gallery</h2>
+        <ul>
+            <li>
+                <img 
+                    src="beachimage1.jpeg" 
+                    alt="Fire Island Lighthouse"
+                    width="300"
+                >
+            </li>
 
+            <li>
+                <img 
+                    src="beachimage2.jpeg" 
+                    alt="Fire Island Beach"
+                    width="300"
+                >
+            </li>
 
-     
+            <li>
+                <img 
+                    src="beach3.jpeg" 
+                    alt="Fire Island Boardwalk"
+                    width="300"
+                >
+            </li>
+        </ul>
+    </section>
+
+    <!-- Call to Action -->
+    <section>
+        <h2>Plan Your Visit</h2>
+        <p>
+            <a href="https://www.nps.gov/fiis/index.htm" target="_blank">
+                Plan your National Park adventure today!
+            </a>
+        </p>
+    </section>
+
 </body>
 </html>
